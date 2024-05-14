@@ -7,6 +7,7 @@ router.get("/", (req, res) => {
 });
 
 router.post("/add", (req, res) => {
+  console.log(req.body);
   res.sendFile(path.join(__dirname, "../public/product-add.html"));
 });
 
