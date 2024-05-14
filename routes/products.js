@@ -6,9 +6,8 @@ router.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/products.html"));
 });
 
-router.post("/", (req, res) => {
-  console.log(req.body);
-  res.send("POST request to the homepage");
+router.post("/add", (req, res) => {
+  res.sendFile(path.join(__dirname, "../public/product-add.html"));
 });
 
 module.exports = router;
