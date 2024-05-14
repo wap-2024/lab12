@@ -1,0 +1,9 @@
+{
+  "name": "lab12",
+  "scripts": {
+    "start": "nodemon --exec 'NODE_ENV=development PORT=3000 node' app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
